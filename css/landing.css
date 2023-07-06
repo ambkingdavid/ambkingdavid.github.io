@@ -1,0 +1,121 @@
+.intro-bg {
+  background-image: url(../images/snake-5.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+.intro-height {
+  height: 95vh;
+}
+
+.intro-bg h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.intro-bg p {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.control-bg {
+  background-image: url(../images/game-control.jpg);
+  background-size: cover;
+  background-position: 30% 10%;
+  height: 40vh;
+}
+
+.responsive-bg {
+  background-image: url(../images/responsive2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.feature p {
+  font-size: 12px;
+}
+
+@media (min-width: 0px) {
+  .intro-height {
+    height: 30vh;
+  }
+
+  .intro-bg h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) {
+  .intro-height {
+    height: 35vh;
+  }
+
+  .intro-bg h1 {
+    font-size: 20px;
+  }
+
+  .responsive-bg {
+    background-image: url(../images/responsive2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+  }
+
+  .responsive-bg h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 425px) {
+
+  .responsive-bg {
+    background-image: url(../images/responsive2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 32vh;
+  }
+
+}
+
+@media (min-width: 480px) {
+  .intro-height {
+    height: 50vh;
+  }
+
+  .intro-bg h1 {
+    font-size: 30px;
+  }
+
+  .responsive-bg {
+    background-image: url(../images/responsive2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-height {
+    height: 75vh;
+  }
+
+  .intro-bg h1 {
+    font-size: 35px;
+  }
+
+  .responsive-bg {
+    background-image: url(../images/responsive2.jpg);
+    background-size: cover;
+    background-position: 40% 50%;
+    height: 70vh;
+  }
+
+  .responsive-bg h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
